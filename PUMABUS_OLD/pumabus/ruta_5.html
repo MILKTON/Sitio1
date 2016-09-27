@@ -1,0 +1,909 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://recursosweb.unam.mx/imagenes/favicon.ico">
+<title>Sistema de Transporte Interno PUMABUS - UNAM</title>
+
+<link href="css_interna.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="tamtexto.js"></script>
+<script type="text/javascript" src="nav-v.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="mapas.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+<script type="text/javascript" src="jMenu.js"></script>
+</head>
+
+<body>
+
+<div id="envolventeint">
+
+<table id="tablacontenidoint" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  
+    <td><table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<img src="imgs/cintillo2016.png" width="980" height="56" />
+	<!--
+    <td><a href="http://unam.mx/"><img src="imgs/encabezado-unam.gif" alt="Universidad Nacional Autónoma de México" width="420" height="103" border="0" /></a></td>
+    <td><img src="imgs/header_pb.png" width="560" height="103" /></td>
+	-->	
+  </tr>
+</table>
+</td>
+  </tr>
+  
+  <tr>
+    <td bordercolor="#FFFFFF"; background="imgs/barra-amarilla.png" style="padding-left:10px; padding-right:5px;"><table width="965" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+          <td width="70"><img src="imgs/house.gif" width="16" height="16" alt="Inicio" /> <a href="index.html">Inicio</a> |</td>
+            <!-- Se comentan el Menu de Contacto, Mapa del Sitio, Preguntas Frecuentes y Buscar -->
+			<!--
+			<td width="85"><img src="imgs/email.gif" width="16" height="13" alt="Contacto" /> <a href="contacto.html">Contacto</a> |</td>
+            <td width="116"><img src="imgs/mapa.png" width="16" height="16" alt="Mapa del Sitio" /> <a href="mapa_sitio.html">Mapa del Sitio</a> |</td>
+            <td width="154"><img src="imgs/preguntas.png" width="16" height="16" alt="Preguntas Frecuentes" /> <a href="faqs.html">Preguntas Frecuentes</a></td>
+            <td width="530" align="right"><form id="buscar-p" action="busqueda.html" method="get"> 		                 <div><input type="text" name="qu">
+                 <input type="submit" value="Buscar"> </div>
+            </form></td>
+            <td width="10">&nbsp;</td>
+			-->
+          </tr>
+        </table></td>
+  </tr>
+  
+  <tr>
+    <td><img src="imgs/titulo_mapa.jpg" width="980" height="61" alt="conócenos" /></td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top" width="230" height="1" style="padding-left:10px;"></td>
+        <td width="750" rowspan="2" class="contenido">
+        
+        <p>
+        	<h3>RUTA 5</h3>
+        </p>
+        
+        <p>
+        
+        <div id="wrapper">
+<img src="imgs/ruta5_ok.jpg" height="370" width="700" />
+
+<!-- Inician marcas de paradas PUMABUS -->
+
+	<div class="pin pin-down" data-xpos="598" data-ypos="280">
+    	  
+	  <h2>Módulo Metro</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_cu_pq.jpg" alt="foto" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b>Metro Universidad, Av. Delfín Madrigal</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="600" data-ypos="190">	  
+	  <h2>CENDI</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_cendi_pq.jpg" alt="foto" /></td>
+    <td width="145"><b>Rutas:</b> 1 y 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b>CENDI</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="465" data-ypos="105">
+      	  
+	  <h2>Salud Mental</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_saludm_pq.jpg" alt="foto" /></td>
+    <td width="145"><b>Rutas:</b> 1 y 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> Salud Mental, Metro Copilco</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="430" data-ypos="40">
+      	  
+	  <h2>Medicina - 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_rectoria_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Medicina</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="365" data-ypos="25">
+      	  
+	  <h2>Odontología - 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_psicologia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Odontología</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="270" data-ypos="8">	
+        
+	  <h2>Economía - 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_filosofia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Economía</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="147" data-ypos="8">
+      	  
+	  <h2>Av. Universidad</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_univ_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> Av. Universidad</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="170" data-ypos="20">
+      	  
+	  <h2>Derecho - 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_economia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Derecho</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="90" data-ypos="25">
+      	  
+	  <h2>Filosofía - 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_odontologia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Filosofía </td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="20" data-ypos="28">	
+        
+	  <h2>Psicología - 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_medicina_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 5</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Psicología</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="30" data-ypos="55">	  
+	  <h2>Psicología</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_psicologia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Psicología</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="85" data-ypos="53">	  
+	  <h2>Filosofía</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_filosofia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Filosofía, Biblioteca Central</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="180" data-ypos="45">	  
+	  <h2>Derecho</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_derecho_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Derecho, Las islas</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="260" data-ypos="40">	  
+	  <h2>Economía</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_economia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Economía</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="360" data-ypos="50">	  
+	  <h2>Odontología</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_odontologia_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Odontología </td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="440" data-ypos="100">	
+        
+	  <h2>Medicina</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_medicina_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Medicina </td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="550" data-ypos="180">	  
+	  <h2>Veterinaria</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_veterinaria_pq.jpg" alt="foto" /></td>
+    <td width="145"><b>Rutas:</b> 1, 5 y 12</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> F. Veterinaria</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="580" data-ypos="240">	  
+	  <h2>I. de Geofísica</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_geofisica_pq.jpg" alt="foto" /></td>
+    <td width="145"><b>Rutas:</b> 1, 5 y 12</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b>I. de Geofísica, Banfield</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="510" data-ypos="305">	  
+	  <h2>Química D y E</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_quimicadye_pq.jpg" alt="foto" /></td>
+    <td width="145"><b>Rutas:</b> 1, 2, 3, 4, 5 y 12</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b>Química D y E</td>
+  </tr>
+</table>
+	  </div>
+      
+
+
+<!-- Inician marcas de edificios UNAM -->
+
+		
+      
+      <div class="pin pin-up" data-xpos="620" data-ypos="200">	  
+      <h2>Centro de Desarrollo Infantil</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="600" data-ypos="165">	  
+	  <h2>Posgrado de Odontología</h2>
+	  </div>      
+      
+      <div class="pin pin-up" data-xpos="510" data-ypos="150">	  
+	  <h2>Facultad de Veterinaria</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="550" data-ypos="230">	  
+	  <h2>Instituto de Geofísica</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="510" data-ypos="275">	  
+	  <h2>Química D y E</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="480" data-ypos="80">	  
+	  <h2>Psiquiatría y Salud Mental</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="410" data-ypos="80">	  
+	  <h2>Facultad de Medicina</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="340" data-ypos="60">	  
+	  <h2>Facultad de Odontología</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="260" data-ypos="60">	  
+	  <h2>Facultad de Economía</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="210" data-ypos="50">	  
+	  <h2>Facultad de Derecho</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="120" data-ypos="55">	  
+	  <h2>Facultad de Filosofía</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="50" data-ypos="15">	  
+	  <h2>Facultad de Psicología</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="35" data-ypos="90">	  
+	  <h2>Rectoría</h2>
+	  </div>
+           
+
+</div>
+
+<!-- Terminan marcas de edificios UNAM -->  
+
+        
+        </p>
+        	<img src="imgs/busstop6.png" width="32" height="37" alt="Icono Parada" /> <b>Paradas de PUMABUS</b><br>
+            <img src="imgs/conference6.png" width="32" height="37" alt="Icono edificio" /> <b>Edificio UNAM</b>
+            <p> 
+            
+
+<!-- Inicia Acordeón de Paraderos -->
+              
+            <div class="accordian">
+	<ul>
+    
+		<li>Módulo Metro</li>
+		<li><table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_cu.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Metro Universidad</br>
+      Tienda UNAM</br>
+      Banfield</br></td>
+  </tr>
+</table>
+</li>
+
+		<li>CENDI</li>
+		<li><table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_cendi.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1 y 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">CENDI</br></td>
+  </tr>
+</table>
+	</li>
+    
+		<li>Psiquiatría y salud mental</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_saludm.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1 y 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Psiquiatría y Salud mental</br>
+      Metro Copilco</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Medicina - 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_saludm.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Medicina</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Odontología - 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_saludm.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Odontología</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Economía - 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_saludm.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Economía</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Av. Universidad</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_univ.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Avenida Universidad</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Derecho - 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_saludm.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Derecho</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Filosofía - 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_saludm.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Filosofía</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Psicología - 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_saludm.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 5</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Psicología</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Facultad de Psicología</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_psicologia.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Psicología</br>
+    </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Facultad de Filosofía</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_filosofia.jpg" alt="foto " /></td>
+
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Filosofía</br>
+      Biblioteca Central</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Facultad de Derecho</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_derecho.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Derecho</br>
+    Las islas</br>
+    </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Facultad de Economía</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_economia.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1,2,3,4,5,6,y 8</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Metro Universidad</br>
+      Tienda UNAM</br>
+      Banfield</br></td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Facultad de Odontología</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_odontologia.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Odontología</br>
+    </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Facultad de Medicina</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_medicina.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1,5,7 y 9</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Medicina</br>
+    </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Facultad de Veterinaria</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_veterinaria.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1, 5 y 12</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Facultad de Veterinaria</br>
+    </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Instituto de Geofísica</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_geofisica.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1, 5 y 12</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Instituto de Geofísica</br>
+      Banfield</br></td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Química D y E</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_quimicadye.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 1, 2, 3, 4, 5 y 12</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Química D y E</br>
+    </td>
+  </tr>
+</table>
+        </li>
+        
+        
+	</ul>
+</div>
+        
+        </p>
+        
+<!-- Termina Acordeón de Paraderos -->
+        
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="padding-left:10px;"><table width="220" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><h3>Menú Principal</h3></td>
+          </tr>
+          <tr>
+            <td>
+            
+            <div class="menu-interna">  
+  
+ <ul id="navmenu-v"> 
+
+<!--  menu conocenos comentado 
+  <li>
+    <a href="conocenos.html"><h2><img src="imgs/conocenos.png" border="0" /> Conócenos</h2></a>
+  </li>
+ -->  
+  
+  <li>
+    <a href="#"><h2><img src="imgs/icono-mapa.jpg" border="0" /> Rutas</h2></a>
+      <ul>
+     <li><a href="ruta_1.html">Ruta 1</a></li>  
+      <li><a href="ruta_2.html">Ruta 2</a> </li> 
+      <li><a href="ruta_3.html">Ruta 3</a></li> 
+      <li><a href="ruta_4.html">Ruta 4</a></li> 
+      <li><a href="ruta_5.html">Ruta 5</a></li>
+      <li><a href="ruta_6.html">Ruta 6</a></li>
+      <li><a href="ruta_7.html">Ruta 7</a> </li> 
+      <li><a href="ruta_8.html">Ruta 8</a></li> 
+      <li><a href="ruta_9.html">Ruta 9</a></li>
+      <li><a href="ruta_10.html">Ruta 10</a></li>
+      <li><a href="ruta_11.html">Ruta 11</a> </li>
+      <li><a href="ruta_12.html">Ruta 12</a></li>
+      <li><a href="mapa_completo.html">Mapa Completo</a> </li>
+    </ul> 
+  </li>
+  <li>
+    <a href="horario.html"><h2><img src="imgs/icono_mapa.png" border="0" /> Horarios</h2></a>
+  </li>
+ 
+<!--  menu servicios y galeria comentado 
+  <li>
+    <a href="servicios.html"><h2><img src="imgs/servicios.png" border="0" /> Servicios</h2></a>
+  </li>
+  <li>
+    <a href="galeria.html"><h2><img src="imgs/icono-galeria.png" border="0" /> Galería</h2></a>
+  </li>
+-->
+
+</ul>
+  </div>
+            
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+        
+                
+        
+        </td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr valign="middle">
+    <td background="imgs/bg-pie.jpg" height="59px;"><table width="965" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+		<!-- Enlace al Directorio -->
+		<!--
+		<td width="106"><img src="imgs/directorio.png" width="22" height="22" alt="Directorio" /> <a href="http://www.directorio.unam.mx/consultasvarias.htm" target="_blank" style="color:#FFF;">Directorio</a></td>
+		-->
+		<td width="647" align="right" valign="middle"></td>
+        <td width="100" align="right" valign="middle"><img src="imgs/twitter.png" width="22" height="22" alt="twitter" /> <a href="https://twitter.com/Pumabusunam" style="color:#FFF">Twitter</a></td>
+        <td width="112" align="right" valign="middle"><img src="imgs/facebook.png" width="22" height="22" alt="Facebook" /> Facebook</td>
+      </tr>
+    </table></td>
+  </tr>
+
+	<!-- se comento el pie de pagina -->
+	<!--
+	<tr style="color:#033">
+     <td align="center"> Hecho en México, todos los derechos reservados 2012. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución. <a href="creditos.html">Créditos</a><br>Sitio web administrado por:<br>
+	 Dirección General de Servicios Generales. <a href="mailto:pumabus@dgsg.unam.mx">pumabus@dgsg.unam.mx</a>
+	 </td>
+	</tr>
+	-->
+  
+</table>
+
+
+<!-- Inicia pie de derechos-->
+<div class="pie-derechos">
+	<div class="administrado">Sitio web administrado por:<br />	Dirección General de Servicios Generales y Movilidad. </div>
+</div>
+<!-- Termina pie de derechos-->
+
+
+</div>
+
+</body>
+</html>

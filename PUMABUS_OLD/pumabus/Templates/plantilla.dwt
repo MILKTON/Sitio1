@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META NAME="Keywords" CONTENT="UNAM">
+<meta name="description" content="UNAM">
+<link rel="shortcut icon" href="http://recursosweb.unam.mx/imagenes/favicon.ico">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Título de la página - UNAM</title>
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="../tamtexto.js"></script>
+<script type="text/javascript" src="../nav-v.js"></script>
+<?php 
+
+function getFecha()
+{
+$meses['01']="enero";
+$meses['02']="febrero";
+$meses['03']="marzo";
+$meses['04']="abril";
+$meses['05']="mayo";
+$meses['06']="junio";
+$meses['07']="julio";
+$meses['08']="agosto";
+$meses['09']="septiembre";
+$meses['10']="octubre";
+$meses['11']="noviembre";
+$meses['12']="diciembre";
+
+$dias['01'] = "1";
+$dias['02'] = "2";
+$dias['03'] = "3";
+$dias['04'] = "4";
+$dias['05'] = "5";
+$dias['06'] = "6";
+$dias['07'] = "7";
+$dias['08'] = "8";
+$dias['09'] = "9";
+
+$dia = date("d");
+$mes = date("m");
+$mes = $meses[$mes];
+$anio = date("Y");
+
+if($dia < 10)
+$dia = $dias[$dia];
+
+$fecha =$dia." de ".$mes." del ".$anio;
+
+return $fecha;
+}
+?>
+
+
+
+<link href="../estilos-internas.css" rel="stylesheet" type="text/css" title="normal"/>
+<link href="../nav-v.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="../mootools.js"></script>
+
+<script type="text/javascript" src="../interna.js"></script>
+
+
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 40px;
+	color: #044D8B;
+}
+.style2 {
+	color: #90002a;
+	font-weight: bold;
+}
+-->
+</style>
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+
+<!-- inicia contenedor que centra la página -->
+
+<div class="contenedor">
+
+
+<!-- inicia encabezado -->
+
+<div class="encabezado"><a href="http://www.unam.mx"><img src="../imgs/encabezado-unam.gif" border="0"  /></a><img src="../imgs/stock/rotate.php" width="560" height="103" /></div>
+
+<!-- termina encabezado -->
+
+  
+  <!-- inicia navegacion -->
+  
+  
+ <div class="navegacion">
+<div class="navegacion-inicio"><a href="../index.html"><img src="../imgs/house.gif" alt="Ir a página principal" title="Ir a página principal" width="16" height="16" border="0"/></a></div>
+  <div class="navegacion-fecha"><?php echo getFecha(); ?></div>
+  
+  
+  
+  
+  
+  
+  <div class="navegacion-mapa"><img src="../imgs/sitemap_color.gif" alt="Sitemap" width="16" height="16" align="left" /><a href="../mapa-sitio.html"> Mapa de sitio</a> <img src="../imgs/help.gif" alt="Ayuda" width="16" height="16" /> <a href="#">Preguntas frecuentes </a> <img src="../imgs/email.gif" alt="Contáctanos por e-mail" width="16" height="13" /> <a href="#"> Contacto</a></div>
+  
+  <div class="navegacion-banderas"></div>
+  
+  <div class="navegacion-buscador">
+    
+      <input type="text"  class="campo" />
+   
+      
+    <input name="submit" src="../imgs/buscar-2.gif" alt="Buscar" align="absmiddle" border="0" type="image">
+      
+  
+  </div>
+</div>
+ 
+ <!-- termina navegacion -->
+ 
+ 
+  <!-- inicia contenido -->
+ 
+ 
+<div class="contenido">
+
+
+  <!-- inicia títulos imágenes  -->
+
+  <div class="topinterna"><img src="../imgs/titulo-generico.jpg" alt="DGSCA" width="980" height="61" border="0" usemap="#Map2" />
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="50,14,332,51" href="../index.html" />
+</map></div>
+
+
+  
+  <!-- termina títulos imágenes  -->
+   
+   
+   <div class="menu-interna">
+  
+  
+ <ul id="navmenu-v">
+ 
+ 
+ 
+ 
+ 
+ 
+  <li>
+    <a href="#"><h2>Opción 1</h2></a>
+    <ul>
+      <li><a href="http://www.unam.mx">Link 1</a></li>  
+      <li><a href="#">Link 2</a> </li> 
+      <li><a href="#">Link 3 3</a></li> 
+      <li><a href="#">Submenú 4</a></li> 
+      <li><a href="#">Submenú 5</a></li>
+      <li><a href="#">Submenú 6</a></li>
+      <li><a href="#">Submenú 7</a> </li> 
+    </ul>
+  </li>
+  <li>
+    <a href="#"><h2>Opción 2</h2></a>
+      <ul>
+     <li><a href="#">Submenú 1</a></li>  
+      <li><a href="#">Submenú 2</a> </li> 
+      <li><a href="#">Submenú 3</a></li> 
+      <li><a href="#">Submenú 4</a></li> 
+      <li><a href="#">Submenú 5</a></li>
+      <li><a href="#">Submenú 6</a></li>
+      <li><a href="#">Submenú 7</a> </li> 
+    </ul> 
+  </li>
+  <li>
+    <a href="#"><h2>Opción 3</h2></a>
+     <ul>
+     <li><a href="#">Submenú 1</a></li>  
+      <li><a href="#">Submenú 2</a> </li> 
+      <li><a href="#">Submenú 3</a></li> 
+      <li><a href="#">Submenú 4</a></li> 
+      <li><a href="#">Submenú 5</a></li>
+      <li><a href="#">Submenú 6</a></li>
+      <li><a href="#">Submenú 7</a> </li> 
+    </ul>
+  </li>
+  <li>
+    <a href="#"><h2>Opción 4</h2></a>
+    <ul>
+       <li><a href="#">Submenú 1</a></li>  
+      <li><a href="#">Submenú 2</a> </li> 
+      <li><a href="#">Submenú 3</a></li> 
+      <li><a href="#">Submenú 4</a></li> 
+      <li><a href="#">Submenú 5</a></li>
+      <li><a href="#">Submenú 6</a></li>
+      <li><a href="#">Submenú 7</a> </li> 
+    </ul>
+  </li>
+  <li>
+    <a href="#"><h2>Opción 5</h2></a>
+    <ul>
+      <li>
+        <a href="#">Submenú 1</a>
+         <ul>
+       <li><a href="#">Sub-ubmenú 1</a></li>  
+      <li><a href="#">Sub-ubmenú 2</a> </li> 
+      <li><a href="#">Sub-ubmenú  3</a></li> 
+      <li><a href="#">Sub-ubmenú  4</a></li> 
+      <li><a href="#">Sub-ubmenú  5</a></li>
+      <li><a href="#">Sub-ubmenú  6</a></li>
+      <li><a href="#">Sub-ubmenú 7</a> </li> 
+      </ul>
+      </li>
+      <li>
+        <a href="#">Submenú 2</a>
+        <ul>
+          <li><a href="#">Sub-ubmenú 1</a></li>  
+      <li><a href="#">Sub-ubmenú  2</a> </li> 
+      <li><a href="#">Sub-ubmenú  3</a></li> 
+      <li><a href="#">Sub-ubmenú  4</a></li> 
+      <li><a href="#">Sub-ubmenú  5</a></li>
+      <li><a href="#">Sub-ubmenú  6</a></li>
+      <li><a href="#">Sub-ubmenú  7</a> </li> 
+        </ul>
+      </li>
+
+      <li>
+        <a href="#">Submenú 3</a>
+        <ul>
+          <li><a href="#">Sub-ubmenú 1</a></li>  
+      <li><a href="#">Sub-ubmenú  2</a> </li> 
+      <li><a href="#">Sub-ubmenú  3</a></li> 
+      <li><a href="#">Sub-ubmenú  4</a></li> 
+      <li><a href="#">Sub-ubmenú  5</a></li>
+      <li><a href="#">Sub-ubmenú  6</a></li>
+      <li><a href="#">Sub-ubmenú  7</a> </li> 
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="#"><h2>Opción 6</h2></a>
+   <ul> 
+     <li><a href="#">Submenú 1</a></li>  
+      <li><a href="#">Submenú 2</a> </li> 
+      <li><a href="#">Submenú 3</a></li> 
+      <li><a href="#">Submenú 4</a></li> 
+      <li><a href="#">Submenú 5</a></li>
+      <li><a href="#">Submenú 6</a></li>
+      <li><a href="#">Submenú 7</a> </li> 
+    </ul>
+  </li>
+</ul>
+  </div>
+  
+  <div class="info-estudiantes">
+    <div class="info-contenido" id="contenido">
+      <div class="noticias">
+<div id="tamano">
+  <a href="javascript:;" onclick="interna.cambiarTamanioLetra('normal');" title="Texto normal">
+
+       <img src="../imgs/letra2.gif" border="0" height="21" width="20">       </a>
+       <a href="javascript:;" onclick="interna.cambiarTamanioLetra('grande');" title="Texto más grande">
+
+       <img src="../imgs/letra3.gif" border="0" height="21" width="20">       </a></div>
+<p> </p>
+        
+        <!-- TemplateBeginEditable name="Contenido" -->
+        <div class="info-contenido" id="contenido-central">
+          <p class="titulos-noticas-ext"> <a  href="http://www.dgsca.unam.mx/blog/?p=90">Noticia 1.</a></p>
+          <p><img src="../imgs/ejemplo.jpg" alt="Ejemplo UNAM 1" width="132" height="99" align="left" /> <a href="#clubs">Lorem </a>ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat pellentesque magna. Aenean iaculis. Fusce sit amet nisl eu nibh blandit euismod. Aenean dapibus. Curabitur et nisl ac erat blandit.<br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat pellentesque magna. Aenean iaculis. Fusce sit amet nisl eu nibh blandit euismod. Aenean dapibus. <br />
+            <a href="#">leer más</a><a href="#">...</a></p>
+          <p>&nbsp;</p>
+          <p class="titulos-noticas-ext"><a  href="http://www.dgsca.unam.mx/blog/?p=90">Noticia 2.</a></p>
+          <p><img src="../imgs/ejemplo.jpg" alt="Ejemplo UNAM 1" width="152" height="114" align="left" /> <a href="#clubs">Lorem </a>ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat pellentesque magna. Aenean iaculis. Fusce sit amet nisl eu nibh blandit euismod. Aenean dapibus. Curabitur et nisl ac erat blandit.<br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat pellentesque magna. Aenean iaculis. Fusce sit amet nisl eu nibh blandit euismod. Aenean dapibus. Curabitur et nisl ac erat blandit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat pellentesque magna. Aenean iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat pellentesque magna. Aenean iaculis. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat pellentesque magna. Aenean iaculis. <br />
+            <a href="#">leer más</a><a href="#">...</a></p>
+        </div>
+        <!-- TemplateEndEditable --></div>
+      <p>&nbsp;</p>
+     
+      
+      <br />
+    </div>
+  </div>
+</div>
+   
+   
+   
+   
+<!-- termina contenido -->
+  
+  
+<!--inicia pie banners y pie derechos-->
+
+
+<div class="pie-banners">
+
+</div>
+
+<div class="pie-derechos">
+
+<div>
+Hecho en México, todos los derechos reservados  2009. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma requiere permiso previo por escrito de la institución. <a href="#">Créditos</a>
+</div>
+<div class="administrado">Sitio web administrado por:<br />
+  Dirección General de de Servicios de Cómputo Académico. <a href="mailto:informes@dgsca.unam.mx">informes@dgsca.unam.mx</a></div>
+
+
+</div>
+
+
+<!--termina pie banners y pie derechos-->
+
+
+</div>
+
+<!--termina contenedor-->
+
+</body>
+</html>

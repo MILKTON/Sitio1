@@ -1,0 +1,266 @@
+﻿body{font:normal 13px "Trebuchet MS",Arial,sans-serif; cursor:default; margin-top:0px; color: #fff; background:#fff; background-image:url(imgs/fondo_p.jpg); background-repeat:no-repeat; background-position:top center;}
+#envolvente{
+	width:1000px;
+	margin:0 auto;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+#envolventeint{
+	width:980px;
+	margin:0 auto;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+#tablacontenido{
+	width:1000px;
+}
+
+#tablacontenidoint{
+	width:980px;
+}
+
+/* imagen de fondo BUS */
+
+#tablaimagen{
+	width:1000px;
+	background-image:url(imgs/pumabus-pers 2.png);
+	background-repeat:no-repeat;
+}
+
+/*
+#tablaimagen{
+	width:1000px;
+	background-image:url(imgs/wallpaper2_2.jpg);
+	background-repeat:no-repeat;
+}
+*/
+
+
+/*
+inicia estilos menú ziquierda de Noticias
+*/
+
+
+
+
+.menu-interna {
+	float: left;
+	padding-left: 8px;
+} 
+ 
+ .menu-interna h2 { 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px; 
+    color: #E7B835; 
+    font-weight: bold; 
+    /*border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #deae3d; */
+    margin-top: 1px; 
+    /*text-transform: uppercase; */
+    margin-left: 0px; 
+    margin-right: 3px; 
+} 
+ 
+.menu-interna a,visited { 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px; 
+    color: #003366; 
+} 
+ 
+.menu-interna a:hover { 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 12px; 
+    color: #FF9900;
+	background:#066;
+} 
+ 
+.menu-interna li { 
+    list-style-type: none; 
+      padding-left: 0; 
+      margin-left: 0; 
+} 
+
+.menu-interna li a:hover {
+	color:#000;
+}
+ 
+.menu-interna ul { 
+    list-style-type: none; 
+    padding-left: 0; 
+      margin-left: 0; 
+} 
+ 
+.menu-interna h3 { 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 13px; 
+    color: #0a4e9b; 
+    font-weight: bold; 
+    margin-bottom: 2px; 
+    margin-top: 2px; 
+    margin-left: 8px; 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #CCCCCC; 
+}
+
+/* Root = Vertical, Secondary = Vertical */
+
+ul#navmenu-v,
+ul#navmenu-v li,
+ul#navmenu-v ul {
+	/*background-color: #FFFFFF;*/
+	float: left;
+	/*width: 180px;*/
+	width: 200px;
+}
+
+ul#navmenu-v:after /*From IE 7 lack of compliance*/{
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul#navmenu-v li {
+	float: left; /*For IE*/
+	position: relative;
+	list-style-type: none;
+	/*  width: 188px;*/
+  line-height: 10pt;
+	display: block;
+}
+
+/* Root Menu */
+ul#navmenu-v a {
+	display: block;
+	height: 18px;
+	height: 80%; /*For IE*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #113e79;
+	text-decoration: none;
+	padding-top:4px;
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu-v a:hover,
+ul#navmenu-v li:hover a,
+ul#navmenu-v li.iehover a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FF9900;
+	
+	border-left-width:1px;
+	border-left-color:#FFF;
+	border-left-style:solid;
+  /*background: #333;
+  color: #FFF;
+*/
+}
+
+/* 2nd Menu */
+ul#navmenu-v li:hover li a,
+ul#navmenu-v li.iehover li a {
+	color: #FFF;
+	padding-left: 5px;
+	background-color:#666;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #316bb2;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu-v li:hover li a:hover,
+ul#navmenu-v li:hover li:hover a,
+ul#navmenu-v li.iehover li a:hover,
+ul#navmenu-v li.iehover li.iehover a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0d283f;
+	background-color: #e7e5e5;/*  width: 188px;*/
+/*
+  background: #CCC;
+  color: #FFF;
+*/
+}
+
+/* 3rd Menu */
+ul#navmenu-v li:hover li:hover li a,
+ul#navmenu-v li.iehover li.iehover li a {
+	color: #113e79;
+	padding-left: 5px;
+	background-color: #f0f6fe;/*  width: 188px;*/
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu-v li:hover li:hover li a:hover,
+ul#navmenu-v li:hover li:hover li:hover a,
+ul#navmenu-v li.iehover li.iehover li a:hover,
+ul#navmenu-v li.iehover li.iehover li.iehover a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #0d283f;
+	background-color: #e7e5e5;/*  width: 188px;*//*
+  background: #CCC;
+  color: #FFF;
+*/
+}
+
+/* 4th Menu */
+ul#navmenu-v li:hover li:hover li:hover li a,
+ul#navmenu-v li.iehover li.iehover li.iehover li a {
+  background: #2e79ba;
+  color: #fff;
+  padding-left: 5px;
+/*  width: 188px;*/
+}
+
+/* 4th Menu Hover */
+ul#navmenu-v li:hover li:hover li:hover li a:hover,
+ul#navmenu-v li.iehover li.iehover li.iehover li a:hover {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #FF9900;
+/*
+  background: #CCC;
+  color: #FFF;
+*/
+}
+
+ul#navmenu-v ul,
+ul#navmenu-v ul ul,
+ul#navmenu-v ul ul ul {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #316bb2;
+	border-bottom-color: #316bb2;
+	border-left-color: #316bb2;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu-v li:hover ul ul,
+ul#navmenu-v li:hover ul ul ul,
+ul#navmenu-v li.iehover ul ul,
+ul#navmenu-v li.iehover ul ul ul {
+  display: none;
+}
+
+ul#navmenu-v li:hover ul,
+ul#navmenu-v ul li:hover ul,
+ul#navmenu-v ul ul li:hover ul,
+ul#navmenu-v li.iehover ul,
+ul#navmenu-v ul li.iehover ul,
+ul#navmenu-v ul ul li.iehover ul {
+  display: block;
+}

@@ -1,0 +1,23 @@
+*{font-family:Arial}
+h1{width:660px;margin:10px auto;font-size:23px;text-align:center;padding:10px}
+p.alerta{border:1px solid gold;width:660px;margin:10px auto;padding:10px;text-align:center;font-family:Arial;font-size:13px}
+
+
+form {width: 680px;font-size: 1.0em;color: #333;margin:50px auto;padding:0}
+legend {background:#ccc;padding:10px;font-size:13px;font-weight:bold}
+fieldset {border: 1px dotted #ccc;padding:10px}
+form legend, form label {color: #333;}
+
+
+fieldset p {padding: 5px 10px 7px;}
+input,textarea{border:1px solid #ccc;padding:5px;width:95%;font-size:12px}
+
+form label.error, label.error {color: red;font-style: italic}
+div.error { display: none; }
+
+
+input:focus,textarea:focus { border: 1px dotted black; }
+input.error,textarea.error { border: 1px dotted red; }
+form .submit { color: gray;width:150px }
+
+#mensaje{width:700px;margin:10px auto;text-align:center}

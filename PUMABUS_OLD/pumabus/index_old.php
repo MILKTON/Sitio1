@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<META NAME="Keywords" CONTENT="UNAM">
+<meta name="description" content="UNAM">
+<link rel="shortcut icon" href="http://recursosweb.unam.mx/imagenes/favicon.ico">
+<title>Sistema de Transporte Interno PUMABUS - UNAM</title>
+
+<script type="text/javascript" src="tamtexto.js"></script>
+<script type="text/javascript" src="nav-v.js"></script>
+<?php 
+
+function getFecha()
+{
+$meses['01']="enero";
+$meses['02']="febrero";
+$meses['03']="marzo";
+$meses['04']="abril";
+$meses['05']="mayo";
+$meses['06']="junio";
+$meses['07']="julio";
+$meses['08']="agosto";
+$meses['09']="septiembre";
+$meses['10']="octubre";
+$meses['11']="noviembre";
+$meses['12']="diciembre";
+
+$dias['01'] = "1";
+$dias['02'] = "2";
+$dias['03'] = "3";
+$dias['04'] = "4";
+$dias['05'] = "5";
+$dias['06'] = "6";
+$dias['07'] = "7";
+$dias['08'] = "8";
+$dias['09'] = "9";
+
+$dia = date("d");
+$mes = date("m");
+$mes = $meses[$mes];
+$anio = date("Y");
+
+if($dia < 10)
+$dia = $dias[$dia];
+
+$fecha =$dia." de ".$mes." del ".$anio;
+
+return $fecha;
+}
+?>
+
+
+
+<link href="estilos-internas.css" rel="stylesheet" type="text/css" title="normal"/>
+<link href="nav-v.css" rel="stylesheet" type="text/css" />
+
+
+<script type="text/javascript" src="mootools.js"></script>
+
+<script type="text/javascript" src="interna.js"></script>
+
+
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 40px;
+	color: #044D8B;
+}
+.style2 {
+	color: #90002a;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+
+<!-- inicia contenedor que centra la página -->
+
+<div class="contenedor">
+
+
+<!-- inicia encabezado -->
+
+<div class="encabezado"><!--<a href="http://www.unam.mx"><img src="imgs/encabezado-unam.gif" alt="UNAM" title="UNAM" border="0"  /></a><img src="imgs/stock/rotate.php" width="560" height="103" />--><a href="http://www.unam.mx"><img src="imgs/encabezado-unam.gif" alt="UNAM" title="UNAM" border="0"  /></a><img src="imgs/header_pb.png" width="560" height="103" /></div>
+
+<!-- termina encabezado -->
+
+  
+  <!-- inicia navegacion -->
+  
+  
+ <div class="navegacion">
+<div class="navegacion-inicio"><a href="index.html"><img src="imgs/house.gif" alt="Ir a página principal" title="Ir a página principal" width="16" height="16" border="0"/></a></div>
+  <div class="navegacion-fecha"><?php echo getFecha(); ?></div>
+  
+  
+  
+  
+  
+  
+  <div class="navegacion-mapa"><img src="imgs/sitemap_color.gif" alt="Sitemap" width="16" height="16" align="left" /><a href="mapa-sitio.html"> Mapa de sitio</a> <img src="imgs/help.gif" alt="Ayuda" width="16" height="16" /> <a href="#">Preguntas frecuentes </a> <img src="imgs/email.gif" alt="Contáctanos por e-mail" width="16" height="13" /> <a href="#"> Contacto</a></div>
+  
+  <div class="navegacion-banderas"></div>
+  
+  <div class="navegacion-buscador">
+    
+      <input type="text"  class="campo" />
+   
+      
+    <input name="submit" src="imgs/buscar-2.gif" alt="Buscar" align="absmiddle" border="0" type="image">
+      
+  
+  </div>
+</div>
+ 
+ <!-- termina navegacion -->
+ 
+ 
+  <!-- inicia contenido -->
+ 
+ 
+<div class="contenido">
+
+
+  <!-- inicia títulos imágenes  -->
+
+  <div class="topinterna"><img src="imgs/titulo-pumabus.jpg" alt="DGSG" width="980" height="61" border="0" usemap="#Map2" />
+<map name="Map2" id="Map2">
+  <area shape="rect" coords="50,20,370,51" href="index.html" />
+</map></div>
+
+
+  
+  <!-- termina títulos imágenes  -->
+   
+   
+   <div class="menu-interna">
+  
+  
+ <ul id="navmenu-v">
+ 
+ 
+ 
+ 
+ 
+ 
+  <li>
+    <a href="#"><h2>Inicio</h2></a>
+  </li>
+  <li>
+    <a href="#"><h2>Problemática</h2></a>
+  </li>
+  <li>
+    <a href="#"><h2>Rutas</h2></a>
+     <ul>
+     <li><a href="#">Ruta 1</a></li>  
+      <li><a href="#">Ruta 2</a></li> 
+      <li><a href="#">Ruta 3</a></li> 
+      <li><a href="#">Ruta 4</a></li> 
+      <li><a href="#">Ruta 5</a></li>
+      <li><a href="#">Ruta 6</a></li>
+      <li><a href="#">Ruta 7</a></li> 
+      <li><a href="#">Ruta 8</a></li>
+      <li><a href="#">Ruta 9</a></li>
+      <li><a href="#">Ruta 10</a></li>
+      <li><a href="#">Ruta 11</a></li>
+      <li><a href="#">Ruta 12</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#"><h2>Transporte Especial</h2></a>
+  </li>
+  <li>
+    <a href="#"><h2>Acciones</h2></a>
+  </li>
+  <li>
+    <a href="#"><h2>Ventajas</h2></a>
+  </li>
+  <li>
+    <a href="#"><h2>Estacionamientos</h2></a>
+  </li>
+  <li>
+    <a href="#"><h2>Galería</h2></a>
+  </li>
+  <li>
+    <a href="#"><h2>Preguntas Frecuentes</h2></a>
+  </li>
+</ul>
+  </div>
+  
+  <div class="info-estudiantes">
+    <div class="info-contenido" id="contenido">
+      <div class="noticias">
+<div id="tamano">
+  <a href="javascript:;" onclick="interna.cambiarTamanioLetra('normal');" title="Texto normal">
+
+       <img src="imgs/letra2.gif" border="0" height="21" width="20">       </a>
+       <a href="javascript:;" onclick="interna.cambiarTamanioLetra('grande');" title="Texto más grande">
+
+       <img src="imgs/letra3.gif" border="0" height="21" width="20">       </a></div>
+<p> </p>
+        
+        <div class="info-contenido" id="contenido-central"> 
+        
+        <h1>Sistema de Transporte Interno</h1>
+        <h2>Presentación</h2>
+        
+        <p class="titulos-noticas-ext"> <a  href="http://www.dgsca.unam.mx/blog/?p=90">Noticia 1.</a></p>
+          <p>El Sistema de Transporte Interno PumaBús es un servicio gratuito que ofrece la UNAM a todo aquel que desee desplazarse por las calzadas del campus de Ciudad Universitaria con facilidad, seguridad y rapidez.</p>
+
+<p>Es un sistema en constante crecimiento, en el año 2000 el servicio se otorgaba con 19 camiones que formaba la flotilla vehicular, para el año 2002 se fortaleció el transporte hasta llegar a 35 vehículos para dar el servicio y en este año 2009 a partir del mes de febrero se cuenta con 60 camiones que cubren las 11 rutas establecidas con 2 paraderos principales: el paradero ORIENTE, situado en la estación del metro CU, donde parten las rutas 1, 2, 3, 4 y 5, el paradero PONIENTE, ubicado en el estacionamiento 1 del Estadio Olímpico Universitario (EOU) para las rutas 6, 7 y 8, y un tercer punto de partida con dos paraderos ubicados en ambas salidas de la nueva estación del MetroBús para las rutas 9, 10 y 11.</p>
+
+<p>Una característica que distingue al Transporte Interno PumaBús es que circula a lo largo de los circuitos de Ciudad Universitaria por un carril exclusivo, quedando los circuitos libres de vehículos estacionados en ambos costados de las calzadas, mismos que podrán permanecer de manera gratuita y segura en los estacionamientos del EOU, contando adicionalmente con un seguro temporal de cobertura amplia.</p>
+
+<p>A partir de enero del 2008, en respuesta a las necesidades de la comunidad universitaria, el sistema creció con la ampliación de la ruta 8 y la implementación de dos nuevas rutas, 9 y 10; en febrero del 2009 se crea la ruta 11.</p>
+
+<p>La ruta 8 se amplió partiendo del EOU y, en lugar de regresar en la Facultad de Química, continúa hasta el Estadio de Prácticas por el circuito exterior. La ruta 9 cubre el circuito de las facultades y continúa por el circuito exterior hasta la Escuela Nacional de Trabajo Social. La ruta 10 enlaza la estación CU del MetroBús con la zona cultural. La ruta 11 enlaza igualmente con la estación CU del MetroBús con la zona del EOU.</p>
+
+<p>El horario del PumaBús es de:<br><br>
+
+Lunes a Viernes <br>
+Todas las rutas de 6:00 a 22:00 hrs.<br><br>
+
+Sábado<br>
+Rutas 1, 2, 4, 5 y 9 de<br>
+6:00 a 15:00 hrs.<br>
+Ruta 3 y 10 de 6:00 a 23:00<br><br>
+
+Domingo<br>
+Rutas 3 y 10 de 6:00 a 23:00 hrs.</p>
+
+<p>Los estacionamientos del EOU funcionan de lunes a viernes de 5:45 a 22:15 hrs.</p>
+
+<p>Recuerda que existen 11 módulos BICIPUMA, servicio de préstamo gratuito con credencial de universitario actualizada.</p>
+
+<p>Para dudas, quejas y/o sugerencias escribir a: pumabus@dgsg.unam.mx</p>
+          </div>
+        
+        </div>
+      <p>&nbsp;</p>
+     
+      
+      <br />
+    </div>
+  </div>
+</div>
+   
+   
+   
+   
+<!-- termina contenido -->
+  
+  
+<!--inicia pie banners y pie derechos-->
+
+
+<div class="pie-banners"></div>
+
+<div class="pie-derechos">
+
+<div>
+Hecho en México, todos los derechos reservados  2012. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma requiere permiso previo por escrito de la institución. <a href="#">Créditos</a>
+</div>
+<div class="administrado">Sitio web administrado por:<br />
+  Coordinación de Transporte Interno PUMABUS. <a href="mailto:pumabus@dgsg.unam.mx">pumabus@dgsg.unam.mx</a></div>
+
+
+</div>
+
+
+<!--termina pie banners y pie derechos-->
+
+
+</div>
+
+<!--termina contenedor-->
+
+</body>
+</html>

@@ -1,0 +1,730 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://recursosweb.unam.mx/imagenes/favicon.ico">
+<title>Sistema de Transporte Interno PUMABUS - UNAM</title>
+
+<link href="css_interna.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="tamtexto.js"></script>
+<script type="text/javascript" src="nav-v.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+<script type="text/javascript" src="mapas.js"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+</script>
+<script type="text/javascript" src="jMenu.js"></script>
+</head>
+
+<body>
+
+<div id="envolventeint">
+
+<table id="tablacontenidoint" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+  
+    <td><table width="980" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+	<img src="imgs/cintillo2016.png" width="980" height="56" />
+	<!--
+    <td><a href="http://unam.mx/"><img src="imgs/encabezado-unam.gif" alt="Universidad Nacional Autónoma de México" width="420" height="103" border="0" /></a></td>
+    <td><img src="imgs/header_pb.png" width="560" height="103" /></td>
+	-->	
+  </tr>
+</table>
+</td>
+  </tr>
+  
+  <tr>
+    <td bordercolor="#FFFFFF"; background="imgs/barra-amarilla.png" style="padding-left:10px; padding-right:5px;"><table width="965" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+          <td width="70"><img src="imgs/house.gif" width="16" height="16" alt="Inicio" /> <a href="index.html">Inicio</a> |</td>
+            <!-- Se comentan el Menu de Contacto, Mapa del Sitio, Preguntas Frecuentes y Buscar -->
+			<!--
+			<td width="85"><img src="imgs/email.gif" width="16" height="13" alt="Contacto" /> <a href="contacto.html">Contacto</a> |</td>
+            <td width="116"><img src="imgs/mapa.png" width="16" height="16" alt="Mapa del Sitio" /> <a href="mapa_sitio.html">Mapa del Sitio</a> |</td>
+            <td width="154"><img src="imgs/preguntas.png" width="16" height="16" alt="Preguntas Frecuentes" /> <a href="faqs.html">Preguntas Frecuentes</a></td>
+            <td width="530" align="right"><form id="buscar-p" action="busqueda.html" method="get"> 		                 <div><input type="text" name="qu">
+                 <input type="submit" value="Buscar"> </div>
+            </form></td>
+            <td width="10">&nbsp;</td>
+			-->
+          </tr>
+        </table></td>
+  </tr>
+  
+  <tr>
+    <td><img src="imgs/titulo_mapa.jpg" width="980" height="61" alt="conócenos" /></td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top" width="230" height="1" style="padding-left:10px;"></td>
+        <td width="750" rowspan="2" class="contenido">
+        
+        <p>
+        	<h3>RUTA 11</h3>
+        </p>
+        
+        <p>
+        
+        <div id="wrapper">
+<img src="imgs/ruta11_ok.jpg" height="412" width="700" />
+
+<!-- Inician marcas de paradas PUMABUS -->
+
+	<div class="pin pin-down" data-xpos="600" data-ypos="310">
+    	  
+	  <h2>Metrobús CU</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_metrobus_cu2_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 2, 4, 6, 8, 9, 11 y 12</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> Metrobús CU, Av. Insurgentes</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="570" data-ypos="225">	  
+	  <h2>Estadio de Prácticas</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_estadio_practicas_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 4, 6, 8, 9 y 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> Estadio de Prácticas</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="520" data-ypos="155">	  
+	  <h2>MUCA</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_ciencias_alumnos_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 6, 8, 9 y 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> MUCA, Av. Insurgentes</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="420" data-ypos="150">	  
+	  <h2>Estacionamiento 8</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_e8_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 6, 7, 8 y 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> E.O.U.</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="310" data-ypos="175">	  
+	  <h2>Estacionamiento 7</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_e7_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 6, 7, 8 y 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> E.O.U.</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="400" data-ypos="40">	
+        
+	  <h2>Relaciones Laborales</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_relaciones_laborales_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> Relaciones Laborales</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="275" data-ypos="20">
+      	  
+	  <h2>D.G. de Obras / Proveeduría</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_obras_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> Dirección General de Obras, Av. Revolución</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="65" data-ypos="40">
+      	  
+	  <h2>AAPAUNAM</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_aapaunam_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> AAPAUNAM, Av. San Jerónimo</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="65" data-ypos="80">
+      	  
+	  <h2>Posgrado de Filosofía</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_posgrado_filos_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 11</td>
+  </tr>
+  <tr>
+     <td><b>Cerca de:</b> Posgrado de Filosofía</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="140" data-ypos="240">	
+        
+	  <h2>Pista de Calentamiento - 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_pista2_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 6 y 11</td>
+  </tr>
+  <tr>
+     <td><b>Cerca de:</b> Pista de Calentamiento</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="135" data-ypos="310">	  
+	  <h2>Pumitas</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_campo_futbol2_r10_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 6 y 11</td>
+  </tr>
+  <tr>
+     <td><b>Cerca de:</b> Campos de PUMITAS</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="240" data-ypos="375">	  
+	  <h2>Jardín Botánico</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_jardin_botanico_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 4, 6, 10 y 11</td>
+  </tr>
+  <tr>
+     <td><b>Cerca de:</b> Jardín Botánico</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="345" data-ypos="310">	  
+	  <h2>Campos de Futbol 2</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_campo_futbol2_r10_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 4, 6, 10 y 11</td>
+  </tr>
+  <tr>
+     <td><b>Cerca de:</b> Puerta 1 zona deportiva, Investigaciones biomédicas</td>
+  </tr>
+</table>
+	  </div>
+      
+      <div class="pin pin-down" data-xpos="575" data-ypos="320">	  
+	  <h2>Metrobús</h2>
+      <table width="230" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="85" rowspan="2"><img src="imgs/parada_metrobus_pq.jpg" alt="parada PUMABUS" /></td>
+    <td width="145"><b>Rutas:</b> 2, 4, 6 y 11</td>
+  </tr>
+  <tr>
+    <td><b>Cerca de:</b> Metrobús, Av. Insurgentes</td>
+  </tr>
+</table>
+	  </div>
+      
+
+
+<!-- Inician marcas de edificios UNAM -->
+
+		
+      
+      <div class="pin pin-up" data-xpos="530" data-ypos="90">	  
+      <h2>Rectoría</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="530" data-ypos="122">	  
+	  <h2>MUAC</h2>
+	  </div>      
+      
+      <div class="pin pin-up" data-xpos="330" data-ypos="33">	  
+	  <h2>Dirección General de Obras</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="30" data-ypos="45">	  
+	  <h2>AAPAUNAM</h2>
+	  </div>
+
+	  <div class="pin pin-up" data-xpos="30" data-ypos="90">	  
+	  <h2>Posgrado de Filosofía</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="208" data-ypos="215">	  
+	  <h2>Pista de Calentamiento</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="400" data-ypos="330">	  
+	  <h2>Investigaciones Biomédicas</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="660" data-ypos="315">	  
+	  <h2>Trabajo Social</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="580" data-ypos="160">	  
+	  <h2>Servicio Médico</h2>
+	  </div>
+      
+      <div class="pin pin-up" data-xpos="460" data-ypos="173">	  
+	  <h2>Bomberos</h2>
+	  </div>
+           
+
+</div>
+
+<!-- Terminan marcas de edificios UNAM -->  
+
+        
+        </p>
+        	<img src="imgs/busstop6.png" width="32" height="37" alt="Icono Parada" /> <b>Paradas de PUMABUS</b><br>
+            <img src="imgs/conference6.png" width="32" height="37" alt="Icono edificio" /> <b>Edificio UNAM</b>
+            <p> 
+            
+
+<!-- Inicia Acordeón de Paraderos -->
+              
+            <div class="accordian">
+	<ul>
+    
+		<li>Metrobús CU</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_metrobus_cu2.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">2, 4, 6, 8, 9, 11 y 12</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Metrobús CU</br>
+      Av. Insurgentes</br>
+      Estadio de Prácticas</br>
+      </td>
+  </tr>
+</table>
+        </li>  
+        
+        <li>Estadio de Prácticas</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_estadio_practicas.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">4, 6, 8, 9 y 11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">
+      Estadio de Prácticas</br>
+      </td>
+  </tr>
+</table>
+        </li> 
+        
+        <li>MUCA</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_ciencias_alumnos.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">6, 8, 9 y 11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">MUCA, Av. Insurgentes</br>
+    </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Estacionamiento 8</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_e8.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 6, 7, 8 y 11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Estadio Olímpico Universitario</td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Estacionamiento 7</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_e7.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 6, 7, 8 y 11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Estadio Olímpico Universitario</td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Relaciones Laborales</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_relaciones_laborales.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Relaciones Laborales</td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Dirección General de Obras / Proveeduría</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_obras.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Dirección General de Obras / Proveeduría</br>
+      Av. Revolución</br>
+      </td>
+  </tr>
+</table>
+        </li>  
+        
+        <li>AAPAUNAM</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_aapaunam.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">
+      AAPAUNAM<br>
+      Av. San Jerónimo<br>
+      </td>
+  </tr>
+</table>
+        </li> 
+        
+        <li>Posgrado de Filosofía</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_posgrado_filos.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Posgrado de Filosofía<br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Pista de Calentamiento - 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_pista2.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">6 y 11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Pista de calentamiento<br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Pumitas</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_campo_futbol2_r10.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">6 y 11 </td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Campos de Pumitas<br>
+      </td>
+  </tr>
+</table>
+        </li> 
+        
+        <li>Jardín Botánico</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_jardin_botanico.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">4, 6, 10 y 11</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Jardín Botánico<br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        <li>Campos de futbol 2</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_campo_futbol2_r10.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;">4, 6, 10 y 11 </td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Puerta 1 zona deportiva<br>
+    Investigaciones biomédicas<br>
+      </td>
+  </tr>
+</table>
+        </li> 
+        
+        <li>Metrobús</li>
+		<li>
+        <table width="548" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td style="padding-top:10px; padding-right:10px;" width="253" rowspan="4" align="left" valign="top"><img src="imgs/parada_metrobus.jpg" alt="foto " /></td>
+    <td width="295" style="padding-top:10px;"><img src="imgs/rutas_interno.jpg" alt="rutas" /></td>
+  </tr>
+  <tr>
+    <td style="padding-left:5px; padding-top:5px;"> 2, 4, 6, 11 y 12</td>
+  </tr>
+  <tr>
+    <td style="padding-top:10px;"><img src="imgs/cercade.jpg" width="120" height="25" alt="cercanía" /></td>
+  </tr>
+  <tr>
+    <td valign="top" style="padding-left:5px; padding-top:5px;">Metrobús CU</br>
+      Av. Insurgentes</br>
+      </td>
+  </tr>
+</table>
+        </li>
+        
+        
+	</ul>
+</div>
+        
+        </p>
+        
+<!-- Termina Acordeón de Paraderos -->
+        
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" style="padding-left:10px;"><table width="220" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><h3>Menú Principal</h3></td>
+          </tr>
+          <tr>
+            <td>
+            
+            <div class="menu-interna">  
+  
+ <ul id="navmenu-v"> 
+
+<!--  menu conocenos comentado  
+  <li>
+    <a href="conocenos.html"><h2><img src="imgs/conocenos.png" border="0" /> Conócenos</h2></a>
+  </li>
+ -->  
+  
+  <li>
+    <a href="#"><h2><img src="imgs/icono-mapa.jpg" border="0" /> Rutas</h2></a>
+      <ul>
+     <li><a href="ruta_1.html">Ruta 1</a></li>  
+      <li><a href="ruta_2.html">Ruta 2</a> </li> 
+      <li><a href="ruta_3.html">Ruta 3</a></li> 
+      <li><a href="ruta_4.html">Ruta 4</a></li> 
+      <li><a href="ruta_5.html">Ruta 5</a></li>
+      <li><a href="ruta_6.html">Ruta 6</a></li>
+      <li><a href="ruta_7.html">Ruta 7</a> </li> 
+      <li><a href="ruta_8.html">Ruta 8</a></li> 
+      <li><a href="ruta_9.html">Ruta 9</a></li>
+      <li><a href="ruta_10.html">Ruta 10</a></li>
+      <li><a href="ruta_11.html">Ruta 11</a> </li>
+      <li><a href="ruta_12.html">Ruta 12</a></li>
+      <li><a href="mapa_completo.html">Mapa Completo</a> </li>
+    </ul> 
+  </li>
+  <li>
+    <a href="horario.html"><h2><img src="imgs/icono_mapa.png" border="0" /> Horarios</h2></a>
+  </li>
+
+<!--  menu servicios y galeria comentado  
+  <li>
+    <a href="servicios.html"><h2><img src="imgs/servicios.png" border="0" /> Servicios</h2></a>
+  </li>
+  <li>
+    <a href="galeria.html"><h2><img src="imgs/icono-galeria.png" border="0" /> Galería</h2></a>
+  </li>
+-->
+  
+</ul>
+  </div>
+            
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table>
+        
+                
+        
+        </td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr valign="middle">
+    <td background="imgs/bg-pie.jpg" height="59px;"><table width="965" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+		<!-- Enlace al Directorio -->
+		<!--
+		<td width="106"><img src="imgs/directorio.png" width="22" height="22" alt="Directorio" /> <a href="http://www.directorio.unam.mx/consultasvarias.htm" target="_blank" style="color:#FFF;">Directorio</a></td>
+		-->
+		<td width="647" align="right" valign="middle"></td>
+        <td width="100" align="right" valign="middle"><img src="imgs/twitter.png" width="22" height="22" alt="twitter" /> <a href="https://twitter.com/Pumabusunam" style="color:#FFF">Twitter</a></td>
+        <td width="112" align="right" valign="middle"><img src="imgs/facebook.png" width="22" height="22" alt="Facebook" /> Facebook</td>
+      </tr>
+    </table></td>
+  </tr>
+
+	<!-- se comento el pie de pagina -->
+	<!--
+	<tr style="color:#033">
+     <td align="center"> Hecho en México, todos los derechos reservados 2012. Esta página puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica. De otra forma, requiere permiso previo por escrito de la institución. <a href="creditos.html">Créditos</a><br>Sitio web administrado por:<br>
+	 Dirección General de Servicios Generales. <a href="mailto:pumabus@dgsg.unam.mx">pumabus@dgsg.unam.mx</a>
+	 </td>
+	</tr>
+	-->
+  
+</table>
+
+
+<!-- Inicia pie de derechos-->
+<div class="pie-derechos">
+	<div class="administrado">Sitio web administrado por:<br />	Dirección General de Servicios Generales y Movilidad. </div>
+</div>
+<!-- Termina pie de derechos-->
+
+
+</div>
+
+</body>
+</html>
